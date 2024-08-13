@@ -161,6 +161,7 @@ body {
     gap: 20px; /* Espaçamento entre as caixas */
     max-width: 1000px; /* Largura máxima do container ajustada */
     margin: 0 auto; /* Centraliza o container horizontalmente */
+    margin-bottom: 40px; /* Adiciona um espaçamento entre as caixas e o título "Entre em Contato" */
 }
 
 .contact-card {
@@ -236,6 +237,7 @@ body {
 .contact-form button:hover {
     background-color: #002b45; /* Azul muito escuro */
 }
+
 /* Rodapé */
 .footer {
     background-color: #333;
