@@ -23,7 +23,6 @@
         <div class="hero-content">
             <h2>Leonardo Dell'Amatrice Silva</h2>
             <p>Inspirado por tecnologia, motivado pela inovação e dedicado a transformar ideias em realidade digital.</p>
-            <a href="#portfolio" class="btn-main">Ver Portfólio</a>
         </div>
     </section>
 
@@ -37,21 +36,6 @@
     <section class="portfolio-section" id="portfolio">
         <h2>Portfólio</h2>
         <div class="projects-grid">
-            <!-- Projeto 1 -->
-            <div class="project-card">
-                <h3>Projeto 1</h3>
-                <p>Descrição detalhada do projeto 1. Trabalhei com tecnologias X e Y.</p>
-            </div>
-            <!-- Projeto 2 -->
-            <div class="project-card">
-                <h3>Projeto 2</h3>
-                <p>Descrição detalhada do projeto 2. Utilizei ferramentas Z e W.</p>
-            </div>
-            <!-- Projeto 3 -->
-            <div class="project-card">
-                <h3>Projeto 3</h3>
-                <p>Descrição detalhada do projeto 3. Experiência com soluções A e B.</p>
-            </div>
             <!-- Novo Projeto JavaScript -->
             <div class="project-card">
                 <h3>Projeto de Aula - JavaScript</h3>
@@ -62,6 +46,11 @@
                 <h3>Projeto de Aula - Angular</h3>
                 <p>Desenvolvido durante uma aula do curso de JavaScript no SENAI. O projeto foi criado usando Angular. Confira o projeto <a href="https://homes-app-angular.onrender.com" target="_blank">aqui</a>.</p>
             </div>
+            <!-- Novo Projeto Workshop -->
+            <div class="project-card">
+                <h3>Site de Workshop</h3>
+                <p>Site de exemplo desenvolvido no SENAI para um workshop. Confira o site <a href="https://senai-workshop.onrender.com" target="_blank">aqui</a>.</p>
+            </div>
         </div>
     </section>
 
@@ -69,22 +58,22 @@
         <h2>Contato</h2>
         <div class="contact-container">
             <div class="contact-card">
-                <img style="width: 10%" src="{{ url_for('static', filename='img/email.png') }}" />
+                <img src="{{ url_for('static', filename='img/email.png') }}" />
                 <h3>Email</h3>
                 <p><a href="mailto:Leonardo.dellamatrice@gmail.com">Leonardo.dellamatrice@gmail.com</a></p>
             </div>
             <div class="contact-card">
-                <img style="width: 10%" src="{{ url_for('static', filename='img/telefone.png') }}" />
+                <img src="{{ url_for('static', filename='img/telefone.png') }}" />
                 <h3>Telefone</h3>
                 <p><a href="tel:+551999318629">+55 (19) 99931-8629</a></p>
             </div>
             <div class="contact-card">
-                <img style="width: 10%" src="{{ url_for('static', filename='img/github.png') }}" />
+                <img src="{{ url_for('static', filename='img/github.png') }}" />
                 <h3>GitHub</h3>
                 <p><a href="https://github.com/LeoDellAmatrice" target="_blank">github.com/LeoDellAmatrice</a></p>
             </div>
             <div class="contact-card">
-                <img style="width: 10%" src="{{ url_for('static', filename='img/linkedin.png') }}" />
+                <img src="{{ url_for('static', filename='img/linkedin.png') }}" />
                 <h3>LinkedIn</h3>
                 <p><a href="https://www.linkedin.com/in/leonardo-dell-amatrice-silva-09524b2bb" target="_blank">linkedin.com/in/leonardo-dell-amatrice-silva</a></p>
             </div>

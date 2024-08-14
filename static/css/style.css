@@ -179,6 +179,10 @@ body {
     font-size: 1.5em;
 }
 
+.contact-card img {
+    width: 10%;
+}
+
 .contact-card p {
     font-size: 1.2em;
     margin: 0;
